@@ -1,0 +1,14 @@
+<nav class="full-screen-nav">
+    <div class="backdrop"></div>
+    <!-- here nav element -->
+    <ul>
+        <% //loop for nav %>
+        <%  for(let element of nav.navElement){ %>
+        <li>
+            <a href="/<%= element.title%> "><!-- <i class="<%= element.icon.toLowerCase() %>"></i> --><%= element.title%>
+            </a>
+        </li>
+        <% } %>
+    </ul>
+
+</nav>
