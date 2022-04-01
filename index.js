@@ -18,7 +18,8 @@ app.set('views', __dirname + '/app/views');
 //~middlewares
 app.use(router);
 
-const PORT = 3000;
+/* const PORT = 3000; */
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
     console.log(`Running server on http://localhost:${PORT}`);
