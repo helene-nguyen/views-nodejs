@@ -20,5 +20,6 @@ router.get('/:page', (req, res) => {
 });
 
 // embed ejs for css and js file
+//test error 404
 
 module.exports = router;
